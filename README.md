@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains code and resources for integrating the u-blox 7C GNSS module with the STM32 microcontroller.
-This project aims to provide a reliable and efficient way to communicate with and use u-blox 7C GPS data in STM32-based embedded systems.
+This project aims to provide a reliable and efficient way to communicate with and use u-blox 7C GNSS data in STM32-based embedded systems.
 
 ![Image](image.jpg)
 
@@ -21,7 +21,9 @@ Configurability: Customize the library for your specific project requirements.
 
 ## Connections
 
-| Ubloc 7c	 | Stm32f072 side |
+this example built with **NUCELO F030R8** 
+
+| Ubloc 7c	 | Stm32f03 |
 | ------ | ------ |
 | TX | UART1_RX |
 | 5V | 5V |
@@ -34,7 +36,6 @@ We welcome contributions from the community! Whether it's bug reports, feature r
 ## License
 
 Creative Commons Zero v1.0 Universal
-
 
 ## Contact
 If you have questions or need help, you can open an issue.
