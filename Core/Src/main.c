@@ -155,7 +155,7 @@ int main(void)
 	      else{ //if the GPS doesn't have a fix, print a message
 	          char *str = (char*)malloc(sizeof(char)*15);
 	          sprintf(str, "%d: No fix\r\n", Serialcnt);
-	          HAL_UART_Transmit(&huart2, str, strlen(str), 1000);
+	         HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), 1000);
 	          HAL_Delay(5000);
 	          free(str);
 	      }
