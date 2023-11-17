@@ -23,7 +23,7 @@ Configurability: Customize the library for your specific project requirements.
 
 this example built with **NUCELO F030R8** 
 
-| Ubloc 7c	 | Stm32f03 |
+|u-blox 7C | Stm32f03 |
 | ------ | ------ |
 | TX | UART1_RX |
 | 5V | 5V |
